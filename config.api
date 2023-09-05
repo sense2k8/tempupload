@@ -1,0 +1,9 @@
+[openai]
+#REQUESTS_CA_BUNDLE = PGE-PRODUCTION-ROOT-CA.crt
+OPENAI_API_KEY = 4ad573efd5ea445ca43d1e1baaafe6f5
+api_base = https://pepsico-l1.openai.azure.com/
+engine = gpt-4-32k
+
+[vector_db]
+pdf_folder = policy_docs
+vector_db_folder = datastore_folder
