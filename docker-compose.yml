@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: my_app:latest
+    ports:
+      - "80:80"
+    environment:
+      - NAME=World
